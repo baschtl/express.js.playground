@@ -16,6 +16,8 @@ app.get('/blocks', function(request, response) {
 // redirect
 app.get('/block', function(request, response) {
   response.redirect('/parts');
+  // or with status code
+  // response.redirect(301, '/parts');
 });
 
 app.listen(3000, function(){

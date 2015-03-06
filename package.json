@@ -1,0 +1,11 @@
+{
+  "name": "express.js.playground",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/baschtl/express.js.playground.git"
+  },
+  "dependencies": {
+    "express": "^4.12.2"
+  }
+}
